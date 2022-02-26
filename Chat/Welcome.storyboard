@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20036.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9P2-za-opW">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20036.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5WB-em-wba">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20018.1"/>
@@ -362,6 +362,82 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C5O-Lk-hYY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1937.68115942029" y="67.633928571428569"/>
+        </scene>
+        <!--Forgot Password View Controller-->
+        <scene sceneID="Oke-YL-LkR">
+            <objects>
+                <viewController id="5WB-em-wba" customClass="ForgotPasswordViewController" customModule="Chat" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LeS-0D-OtF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Zn-qO-WNO" userLabel="CloseButton">
+                                <rect key="frame" x="50" y="94" width="35" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="NqW-B7-tuS"/>
+                                    <constraint firstAttribute="width" constant="35" id="OVc-vf-LC7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="X"/>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kGr-JJ-yaZ" userLabel="EmailView">
+                                <rect key="frame" x="20" y="179" width="374" height="50"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nWJ-q4-cB5" userLabel="EmailText">
+                                        <rect key="frame" x="20" y="5" width="334" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="k2U-C7-Syi"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                                    </textField>
+                                </subviews>
+                                <viewLayoutGuide key="safeArea" id="EhD-JU-2ta"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="nWJ-q4-cB5" secondAttribute="trailing" constant="20" id="MTK-hM-Ypy"/>
+                                    <constraint firstItem="nWJ-q4-cB5" firstAttribute="top" secondItem="kGr-JJ-yaZ" secondAttribute="top" constant="5" id="SwE-2u-A9N"/>
+                                    <constraint firstAttribute="height" constant="50" id="fRn-EO-VEp"/>
+                                    <constraint firstItem="nWJ-q4-cB5" firstAttribute="leading" secondItem="kGr-JJ-yaZ" secondAttribute="leading" constant="20" id="tv3-Mo-hJy"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="reW-Dy-B8D" userLabel="ResetPasswordButton">
+                                <rect key="frame" x="20" y="329" width="374" height="50"/>
+                                <color key="backgroundColor" systemColor="labelColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="aAV-2c-2Ym"/>
+                                </constraints>
+                                <color key="tintColor" systemColor="systemBlueColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Forgot password">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="hph-40-ud3"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="hph-40-ud3" firstAttribute="trailing" secondItem="kGr-JJ-yaZ" secondAttribute="trailing" constant="20" id="6eS-Vf-I3y"/>
+                            <constraint firstItem="8Zn-qO-WNO" firstAttribute="leading" secondItem="hph-40-ud3" secondAttribute="leading" constant="50" id="I62-Pz-80g"/>
+                            <constraint firstItem="hph-40-ud3" firstAttribute="trailing" secondItem="reW-Dy-B8D" secondAttribute="trailing" constant="20" id="K7j-eY-dmn"/>
+                            <constraint firstItem="reW-Dy-B8D" firstAttribute="top" secondItem="kGr-JJ-yaZ" secondAttribute="bottom" constant="100" id="VrX-ma-vHc"/>
+                            <constraint firstItem="reW-Dy-B8D" firstAttribute="leading" secondItem="hph-40-ud3" secondAttribute="leading" constant="20" id="bTQ-LE-fan"/>
+                            <constraint firstItem="kGr-JJ-yaZ" firstAttribute="top" secondItem="8Zn-qO-WNO" secondAttribute="bottom" constant="50" id="i6f-s6-CYO"/>
+                            <constraint firstItem="8Zn-qO-WNO" firstAttribute="top" secondItem="hph-40-ud3" secondAttribute="top" constant="50" id="wx2-cB-FpM"/>
+                            <constraint firstItem="kGr-JJ-yaZ" firstAttribute="leading" secondItem="hph-40-ud3" secondAttribute="leading" constant="20" id="ywu-o7-Efp"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="closeButton" destination="8Zn-qO-WNO" id="qWd-9s-IJI"/>
+                        <outlet property="emailText" destination="nWJ-q4-cB5" id="31Y-nb-EAZ"/>
+                        <outlet property="resetPasswordButton" destination="reW-Dy-B8D" id="VFH-o2-Wtb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ypq-Y2-Lc8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3045" y="68"/>
         </scene>
     </scenes>
     <resources>

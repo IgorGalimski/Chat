@@ -15,6 +15,7 @@
 		F87F3EBA27C950DE0045F8AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87F3EB927C950DE0045F8AC /* ViewController.swift */; };
 		F87F3EBF27C950E00045F8AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F87F3EBE27C950E00045F8AC /* Assets.xcassets */; };
 		F87F3EC227C950E00045F8AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F87F3EC027C950E00045F8AC /* LaunchScreen.storyboard */; };
+		F8EABAD227CABA11001F3D6F /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EABAD127CABA11001F3D6F /* ForgotPasswordViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		F87F3EBE27C950E00045F8AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F87F3EC127C950E00045F8AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F87F3EC327C950E00045F8AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8EABAD127CABA11001F3D6F /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			children = (
 				F86E8E3527CAB19800ACBB55 /* SigInViewController.swift */,
 				F84F5C3C27C96468004FD1D8 /* Welcome.storyboard */,
+				F8EABAD127CABA11001F3D6F /* ForgotPasswordViewController.swift */,
 				F86E8E3327CA97BC00ACBB55 /* SignUpViewController.swift */,
 				F87F3EB527C950DE0045F8AC /* AppDelegate.swift */,
 				F87F3EB727C950DE0045F8AC /* SceneDelegate.swift */,
@@ -146,6 +149,7 @@
 			files = (
 				F87F3EBA27C950DE0045F8AC /* ViewController.swift in Sources */,
 				F87F3EB627C950DE0045F8AC /* AppDelegate.swift in Sources */,
+				F8EABAD227CABA11001F3D6F /* ForgotPasswordViewController.swift in Sources */,
 				F86E8E3427CA97BC00ACBB55 /* SignUpViewController.swift in Sources */,
 				F86E8E3627CAB19800ACBB55 /* SigInViewController.swift in Sources */,
 				F87F3EB827C950DE0045F8AC /* SceneDelegate.swift in Sources */,
