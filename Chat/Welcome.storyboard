@@ -127,7 +127,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sN1-AP-QbG" userLabel="EmailView">
-                                <rect key="frame" x="20" y="477" width="374" height="50"/>
+                                <rect key="frame" x="20" y="397" width="374" height="50"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ORq-Qw-UYw" userLabel="Email Text Field">
                                         <rect key="frame" x="20" y="5" width="334" height="35"/>
@@ -147,7 +147,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xc0-4e-TIc" userLabel="PasswordView">
-                                <rect key="frame" x="20" y="397" width="374" height="50"/>
+                                <rect key="frame" x="20" y="477" width="374" height="50"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="P5l-X6-4sl" userLabel="Password Text Field">
                                         <rect key="frame" x="20" y="5" width="334" height="35"/>
@@ -167,7 +167,7 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E4f-5R-pci" userLabel="SignUpButton">
-                                <rect key="frame" x="20" y="577" width="374" height="50"/>
+                                <rect key="frame" x="20" y="557" width="374" height="50"/>
                                 <color key="backgroundColor" systemColor="systemBlueColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="u2X-Gg-r32"/>
@@ -180,7 +180,7 @@
                                 </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6PT-Q5-nIH" userLabel="SignInButton">
-                                <rect key="frame" x="20" y="787" width="374" height="50"/>
+                                <rect key="frame" x="20" y="767" width="374" height="50"/>
                                 <color key="backgroundColor" systemColor="systemBlueColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="5Ko-Pq-AcL"/>
@@ -197,7 +197,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="Ctt-jE-eTu" firstAttribute="leading" secondItem="NUv-Vs-SMT" secondAttribute="leading" constant="20" id="23j-YA-nUk"/>
-                            <constraint firstItem="E4f-5R-pci" firstAttribute="top" secondItem="sN1-AP-QbG" secondAttribute="bottom" constant="50" id="2nE-EG-usi"/>
+                            <constraint firstItem="E4f-5R-pci" firstAttribute="top" secondItem="Xc0-4e-TIc" secondAttribute="bottom" constant="30" id="2nE-EG-usi"/>
                             <constraint firstItem="6PT-Q5-nIH" firstAttribute="top" secondItem="E4f-5R-pci" secondAttribute="bottom" constant="160" id="67j-B4-QMH"/>
                             <constraint firstItem="KZ6-pI-wN8" firstAttribute="top" secondItem="Nl7-Tb-2Wf" secondAttribute="bottom" constant="50" id="6PR-RF-MEw"/>
                             <constraint firstItem="NUv-Vs-SMT" firstAttribute="trailing" secondItem="Ctt-jE-eTu" secondAttribute="trailing" constant="20" id="6Qp-aK-NTl"/>
@@ -207,10 +207,10 @@
                             <constraint firstItem="Nl7-Tb-2Wf" firstAttribute="top" secondItem="NUv-Vs-SMT" secondAttribute="top" constant="10" id="PuW-sb-1t3"/>
                             <constraint firstItem="sN1-AP-QbG" firstAttribute="leading" secondItem="NUv-Vs-SMT" secondAttribute="leading" constant="20" id="ROV-YA-ZsG"/>
                             <constraint firstItem="NUv-Vs-SMT" firstAttribute="trailing" secondItem="6PT-Q5-nIH" secondAttribute="trailing" constant="20" id="US9-zN-YYL"/>
-                            <constraint firstItem="sN1-AP-QbG" firstAttribute="top" secondItem="Ctt-jE-eTu" secondAttribute="bottom" constant="110" id="V4s-KH-bj4"/>
+                            <constraint firstItem="sN1-AP-QbG" firstAttribute="top" secondItem="Ctt-jE-eTu" secondAttribute="bottom" constant="30" id="V4s-KH-bj4"/>
                             <constraint firstItem="NUv-Vs-SMT" firstAttribute="trailing" secondItem="Xc0-4e-TIc" secondAttribute="trailing" constant="20" id="WVP-V2-smM"/>
                             <constraint firstItem="Ctt-jE-eTu" firstAttribute="top" secondItem="S8f-KS-Hdr" secondAttribute="bottom" constant="40" id="cwa-ws-ahr"/>
-                            <constraint firstItem="Xc0-4e-TIc" firstAttribute="top" secondItem="Ctt-jE-eTu" secondAttribute="bottom" constant="30" id="djN-UD-o0Y"/>
+                            <constraint firstItem="Xc0-4e-TIc" firstAttribute="top" secondItem="Ctt-jE-eTu" secondAttribute="bottom" constant="110" id="djN-UD-o0Y"/>
                             <constraint firstItem="Xc0-4e-TIc" firstAttribute="leading" secondItem="NUv-Vs-SMT" secondAttribute="leading" constant="20" id="fuI-hq-qJU"/>
                             <constraint firstItem="NUv-Vs-SMT" firstAttribute="trailing" secondItem="sN1-AP-QbG" secondAttribute="trailing" constant="20" id="gnD-pQ-1E6"/>
                             <constraint firstItem="KZ6-pI-wN8" firstAttribute="leading" secondItem="NUv-Vs-SMT" secondAttribute="leading" constant="30" id="kRN-Hw-0MW"/>
