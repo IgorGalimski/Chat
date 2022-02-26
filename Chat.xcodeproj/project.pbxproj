@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F84F5C3D27C96468004FD1D8 /* Welcome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F84F5C3C27C96468004FD1D8 /* Welcome.storyboard */; };
 		F86E8E3427CA97BC00ACBB55 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86E8E3327CA97BC00ACBB55 /* SignUpViewController.swift */; };
+		F86E8E3627CAB19800ACBB55 /* SigInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86E8E3527CAB19800ACBB55 /* SigInViewController.swift */; };
 		F87F3EB627C950DE0045F8AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87F3EB527C950DE0045F8AC /* AppDelegate.swift */; };
 		F87F3EB827C950DE0045F8AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87F3EB727C950DE0045F8AC /* SceneDelegate.swift */; };
 		F87F3EBA27C950DE0045F8AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87F3EB927C950DE0045F8AC /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		F84F5C3C27C96468004FD1D8 /* Welcome.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Welcome.storyboard; sourceTree = "<group>"; };
 		F86E8E3327CA97BC00ACBB55 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		F86E8E3527CAB19800ACBB55 /* SigInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigInViewController.swift; sourceTree = "<group>"; };
 		F87F3EB227C950DE0045F8AC /* Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F87F3EB527C950DE0045F8AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F87F3EB727C950DE0045F8AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 		F87F3EB427C950DE0045F8AC /* Chat */ = {
 			isa = PBXGroup;
 			children = (
+				F86E8E3527CAB19800ACBB55 /* SigInViewController.swift */,
 				F84F5C3C27C96468004FD1D8 /* Welcome.storyboard */,
 				F86E8E3327CA97BC00ACBB55 /* SignUpViewController.swift */,
 				F87F3EB527C950DE0045F8AC /* AppDelegate.swift */,
@@ -144,6 +147,7 @@
 				F87F3EBA27C950DE0045F8AC /* ViewController.swift in Sources */,
 				F87F3EB627C950DE0045F8AC /* AppDelegate.swift in Sources */,
 				F86E8E3427CA97BC00ACBB55 /* SignUpViewController.swift in Sources */,
+				F86E8E3627CAB19800ACBB55 /* SigInViewController.swift in Sources */,
 				F87F3EB827C950DE0045F8AC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
